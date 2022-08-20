@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@300;400;600&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 3rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+section{ 
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 375px;
+    border-radius: 0.7rem;
+    row-gap: 1rem ;
+
+}
+picture{
+    position: relative;
+}
+picture:hover c.view{
+    display: block;
+}
+.view{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+picture img{
+    border-radius: 0.7rem;
+    max-width: 100%;
+}
+h1{
+    color: white;
+    font-size: 600;
+}
+
+article p {
+    color: hsl(215, 51%, 70%);
+    font-size: 300;
+    margin-top: 1rem;
+}
+.count{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.count img{
+    object-fit: none;
+    margin-top: 1rem;
+    
+}
+.eth{
+    display: flex;
+    
+}
+.eth p{
+    color: hsl(178, 100%, 50%) ;
+    font-size: 400;
+    margin-left: 0.3rem;
+}
+.clock{
+    display: flex;
+}
+.clock p{
+    color: hsl(215, 51%, 70%);
+    margin-left: 0.3rem;
+}
+footer{
+    color: hsl(215, 51%, 70%);
+    display: flex;   
+    column-gap: 10px;
+    align-items: center;
+    max-height: 50px;
+   
+}
+footer img{
+    height: 70%;
+    border: 1px solid white;
+    border-radius: 50%;   
+}
+em{
+    font-style: normal;
+    color: white;
+}
+em:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+article:hover h1{
+    color: hsl(178, 100%, 50%);
+    
+}
